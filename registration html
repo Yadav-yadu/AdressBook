@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>registratin-page</title>
+
+</head>
+<body>
+	<form style="padding-left:500px;padding-right: 500px;padding-top: 100px;">
+	<fieldset style="background-color: dimgray;">
+		<h1 style="text-align:center;">Registration</h1>
+	<div style="padding-left: 30px;">
+		<input type="radio" name="Personal" value="P">Personal<input type="radio" name="Company" value="C">Company <br>
+	</div>
+	<div style="padding: 30px;">
+	
+       <table><tr><td> <label>Email</label></td>
+        <td><input type="mail" name="mail" placeholder="Ex:jaks@gmail.com"></td></tr>
+        <tr><td><label>Name</label></td>
+        <td><input type="text" name="name"  placeholder="Ex:jaks" ></td></tr>
+        <tr><td><label>Password</label></td>
+        <td><input type="password" name="pwd" minlength="8" placeholder="password"></td></tr>
+    </table>
+        </div>
+    <div style="padding-left: 30px;">
+        <input type="checkbox" name="gender" value="M">Male<input type="checkbox" name="gender" value="F">Female<br>
+    </div>
+        <p style="text-align: center;padding-left:30px;padding-right: 30px;">By clicking Register, you agree on our <a href=" ">Privacy Policy for w3docs</a></p>
+        <div style="padding-left: 30px;">
+        <input type="submit" style="background-color:green;width: 250px;"><br> 
+      </div>
+  </fieldset>
+</form>
+</body>
+</html>
