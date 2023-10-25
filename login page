@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+      
+</head>
+<body>
+<form style="padding-left:500px;padding-right: 500px;padding-top: 100px;">
+     <fieldset style="background-color: lightblue;padding:50px">
+     	
+	<h1 style="text-align: center;">Login</h1>
+	<table><tr><td><label>Username</label></td>
+	<td><input type="text" name="uname" placeholder="Type your username"></td></tr>
+	<tr><td><label>Password</label><br></td>
+	<td><input type="password" name="pwd" placeholder="Type your password" minlength="8"><br></td></tr>
+	</table>
+	<a href=" " style="padding-left: 130px;">Forgot password?</a><br>
+	<div style="padding-left: 80px;padding-top: 20px;">
+	<input type="submit"  name="login"style="background-color:green;width: 100px;">
+	</div>
+	<p style="padding-left:30px ;">not a member?<a href="file:///C:/frountend/reg.html">Register Here</a></p>
+
+
+</fieldset>
+</form>
+
+	</body>
