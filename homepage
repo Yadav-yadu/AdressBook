@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+                 background-image: url('addressbook.jpg');
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+                 background-size: 100% 100%;
+		}
+	</style>
+
+
+
+</head>
+<body>
+	
+	<table style="text-align-last: right;">
+		<tr><td>
+			<p ><a href="file:///C:/frountend/login.html">login</a></p>
+		</td></tr></table>
+      <h1 style="text-align: center;color: darkblue;padding-top: 100px;"> WELCOME TO ADDRESS BOOK </h1>
+    
+	</body>
