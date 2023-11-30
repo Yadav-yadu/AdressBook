@@ -1,0 +1,98 @@
+body {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+	background:#000;
+	background-image: url(background.jpg);
+	backgroung-size:cover;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.inputbox{
+ 	position: relative;
+ 	margin: 30px 0 ;
+ 	width: 310px;
+ 	border-bottom: 2px solid #fff;
+ 	cursor: pointer;
+ }
+
+.inputbox label{
+ 	 position: absolute;
+ 	 top: 50%;
+ 	 left: 5px;
+ 	 transform: translateY(-50%);
+ 	 color: #000;
+ 	 font-size: 1em;
+ 	 transition: .5s;
+ 	}
+
+ 	input:valid ~ label ,
+ input:focus ~ label
+ {
+ 	top: -5px;
+ } 
+
+ 	.inputbox input {
+ 	width: 100%;
+ 	height: 50px;
+ 	background: transparent;
+ 	border: none;
+ 	outline: none;
+ 	/*font-size: 1em;
+ 	padding: 0 35px 0 5px;*/
+
+ }
+
+ 	button:hover{
+	color: ghostwhite;
+	background-color: black;
+	border: none ;
+	cursor: pointer;
+}
+
+.register p a:hover{
+  	 text-decoration: underline;
+  	color: ghostwhite;
+  }
+
+.for-input-material {
+	--input-default-border-color:white;
+	--input-border-bottem-color:white;
+}
+
+.form-input-material input {
+	color:white;
+}
+
+.login-form {
+	backdrop-filter: blur(10px);
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	padding:50px 40px;
+	color:white;
+	/*box-shadow: 0 0.4px 0.4px rgba(255, 255, 255, 0.5),
+	0 1px 1px rgba(255, 255, 255, 0.5),
+	 0 2.1px 2.1px rgba(255, 255, 255, 0.5),
+	 0 4.4px 4.4px rgba(255, 255, 255, 0.5),
+	 0 12px 12px rgba(181,192, 199, 0.5);
+	 border-radius: 10px;*/
+
+
+ 	width: 500px;
+ 	border: 2px solid rgba(255, 255, 255, 0.5);
+ 	border-radius: 20px;
+ }
+ 	
+ 	button{
+ 		padding-inline: 130px;
+ 		border-radius: 20px;
+ 		border: transparent;
+ 		height: 40px;
+ 	}
+ 	
+
+
+
