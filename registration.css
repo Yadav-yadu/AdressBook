@@ -1,12 +1,13 @@
-body {
+ body {
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	min-height:100vh;
+  
+ 
 	background:#000;
 	background-image: url(background.jpg);
 	backgroung-size:cover;
-	background-size: 100% 100%;
+	background-size: 100% 110%;
 	background-repeat: no-repeat;
 }
 
@@ -24,19 +25,20 @@ body {
  	 left: 5px;
  	 transform: translateY(-50%);
  	 color: #000;
- 	 font-size: 1em;
+ 	 font-family: cursive;
+ 	 font-size: 1.1em;
  	 transition: .5s;
  	}
 
  	input:valid ~ label ,
  input:focus ~ label
  {
- 	top: -5px;
+ 	top: -20px;
  } 
 
  	.inputbox input {
  	width: 100%;
- 	height: 50px;
+ 	height: 12px;
  	background: transparent;
  	border: none;
  	outline: none;
@@ -63,15 +65,16 @@ body {
 }
 
 .form-input-material input {
-	color:white;
+	color:black;
+	font-size: 1.1em;
 }
 
 .login-form {
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(20px);
 	display:flex;
 	flex-direction: column;
 	align-items:center;
-	padding:50px 40px;
+	padding: 0 -50% 0 -50%;
 	color:white;
 	/*box-shadow: 0 0.4px 0.4px rgba(255, 255, 255, 0.5),
 	0 1px 1px rgba(255, 255, 255, 0.5),
@@ -82,6 +85,7 @@ body {
 
 
  	width: 500px;
+ height: 85%;
  	border: 2px solid rgba(255, 255, 255, 0.5);
  	border-radius: 20px;
  }
@@ -92,6 +96,15 @@ body {
  		border: transparent;
  		height: 40px;
  	}
+
+.login-form p a{
+	text-decoration: none;
+	color: blue;
+}
+.login-form p{
+	color: black;
+	
+}
  	
 
 
