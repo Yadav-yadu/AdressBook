@@ -1,0 +1,17 @@
+<web-app>
+
+<servlet>
+
+  <servlet-name>servlet3</servlet-name>
+  <servlet-class>com.phone.book.Register</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>servlet3</servlet-name>
+<url-pattern>/serv3</url-pattern>
+
+</servlet-mapping>
+
+</web-app>
